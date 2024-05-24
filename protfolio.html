@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protfolio - Amira </title>
+
+  <!-- https://slimhamdi.net/amira/demos/index-slideshow.html -->
+
+  <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+
+  <!-- boostrap 5.3.3 -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- font icon -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- owl- carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   
+
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- media css file -->
+  <link rel="stylesheet" href="css/media.css">
+
+  <!-- fancy box css file-------- -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  
+</head>
+<body>
+
+    <!-- pre loader start---------- -->
+    <div class="preloader">
+      <img src="image/logo.png" alt="">
+    </div>
+    <!-- pre loader end---------- -->
+
+    <!-- botoom to top aero start -->
+    <div id="back-top-wrapper">
+      <p id="back-top">
+          <a href="#top"><span></span></a>
+      </p>
+  </div>
+    <!-- botoom to top aero end -->
+
+    <header class="sticky">
+      <nav class="navbar navbar-expand-lg p-0 position-absolute w-100 z-3">
+        <div class="container-fluid px-lg-4 p-sm-0 main_hdr">
+          <a class="navbar-brand position-relative" href="index.html">
+            <img src="image/logo.png" alt="">
+            <img src="image/darklogo.png" class="darklogo" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=" fa-solid fa-bars open_menu"></span>
+          </button>
+          <div class="collapse navbar-collapse mob_menu " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  mb-lg-0 main_menu  ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html"><i class="fa-solid fa-house-chimney"></i>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="about.html"><i class="fa-solid fa-user"></i>ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="protfolio.html"><i class="fa-regular fa-image"></i>Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="single_post.html"><i class="fa-solid fa-pen-to-square"></i>blog </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>pages <i class="fa-solid fa-angle-down ms-1"></i></a>
+                <ul class="sub_menu">
+                  <li><a href="register.html">Register page</a></li>
+                  <li><a href="login.html">Login page</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="404page.html">404 Page</a></li>
+                  <li><a href="server_error_page.html">Server Error Page</a></li>
+                  <li><a href="team_service.html">Terms of Services</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope"></i>CONTACT</a>
+              </li>
+              <li class="nav-item d-md-block d-none">
+                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+  <main>
+    <!-- banner start -->
+    <section class="slider">
+        <div class="banner">
+            <p class="display-5 text-white fw-bolder">PORTFOLIO</p>
+            <div class="line"></div>
+            <div class=" fs-14 text-white breadcrumb">
+                <a href="index.html" class="text-white fw-bold home_link">HOME</a>
+                <span class="px-2 text-white">/</span>
+                <a href="#" class="text-white">PORTFOLIO</a>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+
+      <!-- protfolio start -->
+      <section>
+        <div class="container spacer">
+          <ul class="nav  my-4 justify-content-center" id="protfolio" role="tablist">
+            <li class="nav-item pb-3" role="presentation">
+              <button class="nav-link active fs-14 txtdark fw-medium  rounded-pill mx-3 " id="protfolio_card1" data-bs-toggle="pill" data-bs-target="#p_card1"  aria-controls="p_card1" > <i class="fa-solid fa-bars pe-2"></i>ALL PROJECTS</button>
+            </li>
+            <li class="nav-item pb-3" role="presentation">
+              <button class="nav-link fs-14 txtdark fw-medium  rounded-pill mx-3" id="protfolio_card2" data-bs-toggle="pill" data-bs-target="#p_card2"  aria-controls="p_card2">IMAGES</button>
+            </li>
+            <li class="nav-item pb-3" role="presentation">
+              <button class="nav-link fs-14 txtdark fw-medium rounded-pill mx-3" id="protfolio_card3" data-bs-toggle="pill" data-bs-target="#p_card3"  aria-controls="p_card3">VIDEOS</button>
+            </li>
+            <li class="nav-item pb-3" role="presentation">
+              <button class="nav-link fs-14 txtdark fw-medium   rounded-pill mx-3" id="protfolio_card4" data-bs-toggle="pill" data-bs-target="#p_card4" aria-controls="p_card4" >EXTERNAL LINKS</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active container" id="p_card1"  aria-labelledby="protfolio_card1" tabindex="0">
+                <div class="row ">
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-1.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="image_project.html">READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-2.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="youtube_project.html" class="card-title fs-18 fw-semibold txtdark m-0">YOUTUBE VIDEO</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="youtube_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-3.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="gallery_project.html" class="card-title fs-18 fw-semibold txtdark m-0">GALLERY PHOTOS</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="gallery_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-4.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">EXTERNAL LINK</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="image_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-5.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="image_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-6.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="youtube_project.html" class="card-title fs-18 fw-semibold txtdark m-0">YOUTUBE VIDEO</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="youtube_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-7.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="image_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-8.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="vimeo_project.html" class="card-title fs-18 fw-semibold txtdark m-0">VIMEO VIDEO</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="vimeo_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-12 py-3">
+                    <div class="card">
+                      <img src="image/project-9.jpg" class="rounded" alt="...">
+                      <div class="card-body ps-0">
+                        <a href="slider_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SLIDER PROJECT</a>
+                        <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                        <div class="themebtn m-0 fs-14">
+                          <a href="slider_project.html" >READ MORE</a>
+                           <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="p_card2"  aria-labelledby="protfolio_card4" tabindex="0">
+              <div class="row ">
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-1.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="image_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-3.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="gallery_project.html" class="card-title fs-18 fw-semibold txtdark m-0">GALLERY PHOTOS</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="gallery_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-5.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="image_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-7.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SINGLE IMAGE</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="image_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-9.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="slider_project.html" class="card-title fs-18 fw-semibold txtdark m-0">SLIDER PROJECT</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="slider_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="p_card3"  aria-labelledby="protfolio_card4" tabindex="0">
+              <div class="row ">
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-2.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="youtube_project.html" class="card-title fs-18 fw-semibold txtdark m-0">YOUTUBE VIDEO</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="youtube_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-6.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="youtube_project.html" class="card-title fs-18 fw-semibold txtdark m-0">YOUTUBE VIDEO</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="youtube_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-8.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="vimeo_project.html" class="card-title fs-18 fw-semibold txtdark m-0">VIMEO VIDEO</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="vimeo_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="p_card4"  aria-labelledby="protfolio_card4" tabindex="0">
+              <div class="row ">
+                <div class="col-lg-4 col-12 py-3">
+                  <div class="card">
+                    <img src="image/project-4.jpg" class="rounded" alt="...">
+                    <div class="card-body ps-0">
+                      <a href="image_project.html" class="card-title fs-18 fw-semibold txtdark m-0">EXTERNAL LINK</a>
+                      <p class="card-text fs-14 txtdark py-3 m-0">dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                      <div class="themebtn m-0 fs-14">
+                        <a href="image_project.html" >READ MORE</a>
+                         <i class="fa-solid fa-arrow-right"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- protfolio end -->
+
+   
+
+  </main>
+
+
+   <footer>
+    <section class="footer_sec">
+      <div class="container footer">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>AMIRA</h4>
+              <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="pricing.html">PRICING</a></li>
+                <li><a href="protfolio.html">PORTFOLIO</a></li>
+                <li><a href="single_post.html">BLOG</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>SUPPORT</h4>
+              <ul class="menu">
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="team_service.html">TERMS OF SERVICES</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <h4>CONTACT US</h4>
+              <ul class="menu">
+                <li><i class="pe-2 fa-solid fa-envelope"></i> CONTACT@WEBSITE.COM</li>
+                <li><i class="pe-2 fa-solid fa-phone"></i> 00216 21 184 010</li>
+                <li><i class="pe-2 fa-solid fa-location-dot"></i> LONDON, ENGLAND</li>
+                <li><i class="pe-2 fa-solid fa-clock"></i> MON-SAT 08AM ⇾ 05PM</li>
+                <li><i class="pe-2 fa-brands fa-skype"></i> AMIRA.SKYPE</li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="last_sec">
+                <div class="footer_num d-flex mb-4">
+                  <div class="f_counter">
+                    <h2>77,991</h2>
+                    <span>PROJECTS</span>
+                  </div>
+                  <div class="f_counter">
+                    <h2>80,217</h2>
+                    <span>HOURS WORK</span>
+                  </div>
+                </div>
+                <div class="footer_num d-flex pb-4">
+                  <div class="f_counter">
+                    <h2>1,253</h2>
+                    <span>OFFICES</span>
+                  </div>
+                  <div class="f_counter">
+                    <h2>17,361</h2>
+                    <span>CLIENTS</span>
+                  </div>
+                </div>
+              </div>
+              <ul class="social_icon d-flex my-5">
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+              <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li> <a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+            </div>
+        </div>
+          <div class="copyrigt_link text-center">
+            <p>Copyright © 2024 Amira All Rights Reserved | Created with Love by <a href="#"> princy</a> </p>
+          </div>
+      </div>
+    </section>
+  </footer>
+  <!-- jquery 3.7.1 -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+
+  <!-- boostrap 5.3.3 -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <!-- owl-carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!-- fancy box js--------- -->
+  <script src="js/jquery.fancybox.min.js"></script>
+
+  <!-- custom js file -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
